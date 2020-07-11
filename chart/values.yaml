@@ -1,0 +1,17 @@
+environment: development
+apphost: k8s
+
+label:
+  name: netcoreapp31
+
+container:
+  name: coreapp31-kube-helm
+  pullPolicy: IfNotPresent
+  image: helmplay
+  tag: v1
+  port: 80
+replicas: 3
+
+service:
+  port: 8888
+  type: ClusterIP
