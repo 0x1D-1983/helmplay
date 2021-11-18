@@ -1,8 +1,8 @@
-environment: development
-apphost: k8s
+environment: kubes-environment
+apphost: kubes-host
 
 label:
-  name: netcoreapp31
+  name: helmplay
 
 container:
   name: coreapp31-kube-helm

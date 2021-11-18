@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 namespace coreapp31_kube_helm.Controllers
 {
     [ApiController]
-    [Route("")]
+    [Route("[controller]")]
     public class InfoController : ControllerBase
     {
         private readonly ILogger<InfoController> _logger;

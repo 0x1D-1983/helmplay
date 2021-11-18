@@ -2,7 +2,7 @@ environment: production
 apphost: k8s
 
 label:
-  name: netcoreapp31
+  name: helmplay
 
 container:
   name: coreapp31-kube-helm
